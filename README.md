@@ -46,14 +46,5 @@ Two test projects were executed to compare the behavior of **NUnit** and **xUnit
 
 ---
 
-## Conclusion
-
-Both test runners work correctly — all tests passed successfully.
-
-- **Parallelism** is implemented within each project as required.
-- **NUnit** proved to be more intuitive and readable for UI testing scenarios.
-- **xUnit** is more modern and flexible, but slightly more complex to configure for browser-based tests.
-
-### Recommendation
-For UI/browser automation, **NUnit** offers better readability and simpler setup.  
-For general-purpose or modern .NET projects, **xUnit** remains a strong choice despite its slight learning curve.
+### Conclusion
+For UI testing, I consider NUnit more convenient because its [SetUp]/[TearDown] attributes and [TestCase] allow for faster and clearer browser and data setup, while test parallelism works stably.
