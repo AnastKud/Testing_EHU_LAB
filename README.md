@@ -24,14 +24,14 @@ Two test projects were executed to compare the behavior of **NUnit** and **xUnit
 - **Total duration:** 1.2 min
 - **Outcome:** 5 passed
 
-![NUnit детали](./screenshots/nunit-details.png)
+
 
 ### EhuTests.xUnit
 - **Tests in group:** 5
 - **Total duration:** 1.5 min
 - **Outcome:** 5 passed
 
-![xUnit детали](./screenshots/xunit-details.png)
+
 
 ---
 
